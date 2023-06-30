@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0874)https://w-gcb-app.herokuapp.com/worker?pageId=masterPage&compId=tpaWorker_42&viewerCompId=tpaWorker_42&siteRevision=489&viewMode=site&deviceType=desktop&locale=en&tz=Europe%2FLondon&regionalLanguage=en&endpointType=worker&instance=abd45GBjQzsh7-zF5Z0Rr7EobdRFLGQbjcOZJdM5jkc.eyJpbnN0YW5jZUlkIjoiZDQ3MDc2MDAtMWM0MS00YzQ4LWFmYmQtZDU5ZjE5ZDllYzZlIiwiYXBwRGVmSWQiOiI2NzNjODkzMi0wYTJjLTRmZDEtYTU4ZS1iY2E0MzI2NzFjMWIiLCJzaWduRGF0ZSI6IjIwMjMtMDYtMzBUMjI6Mzc6MjEuMzE5WiIsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiNzdhNGZmMjYtMjEwNi00ZDI1LWExM2ItM2VjNmQyMWY4MGFiIiwic2l0ZU93bmVySWQiOiJlYzE0MTVjMC1mOGZhLTQwMWUtOWI5Yy0yMDRiZWMyOTJhN2IifQ&currency=GBP&currentCurrency=GBP&commonConfig=%7B%22brand%22%3A%22wix%22%2C%22bsi%22%3A%22ce8b2075-94ac-4c82-aa5e-ea4624586363%7C1%22%2C%22BSI%22%3A%22ce8b2075-94ac-4c82-aa5e-ea4624586363%7C1%22%7D&currentRoute=.%2F&vsi=c1afb1b4-b82f-48a6-802f-dc1a1b00f2c3 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Blocky: Geolocation Country Blockwer Worker</title>
+    <script src="./react-with-addons.min.js.atsisiųsti"></script>
+    <script src="./react-dom.min.js.atsisiųsti"></script>
+    <script src="./jquery.min.js.atsisiųsti"></script>
+    <script src="./lodash.js.atsisiųsti"></script>
+    <script src="./wix.min.js.atsisiųsti"></script>
+    <script type="text/JavaScript" src="./wix.min.js(1).atsisiųsti"></script>
+    <script src="./jquery-1.9.1.js.atsisiųsti"></script>
+<style wix-style="">.Title{ font:normal normal normal 60px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Menu{ font:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Page-title{ font:normal normal normal 40px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Heading-XL{ font:normal normal normal 38px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Heading-L{ font:normal normal normal 35px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Heading-M{ font:normal normal normal 27px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Heading-S{ font:normal normal normal 25px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Body-L{ font:normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Body-M{ font:normal normal normal 16px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Body-S{ font:normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Body-XS{ font:normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./languages-woff2.css"><link type="text/css" rel="stylesheet" href="./wixMadefor.css"><style>:focus {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible:focus,
+.js-focus-visible .focus-visible:focus ~ .wixSdkShowFocusOnSibling
+{
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 1px 2px #3899EC;
+}
+</style><script src="./focus-visible.min.js.atsisiųsti" id="dynamic_script_FOCUS_VISIBLE"></script><style wix-style="">.Title{ font:normal normal normal 60px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Menu{ font:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } .Page-title{ font:normal normal normal 40px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Heading-XL{ font:normal normal normal 38px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Heading-L{ font:normal normal normal 35px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Heading-M{ font:normal normal normal 27px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Heading-S{ font:normal normal normal 25px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif; } .Body-L{ font:normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Body-M{ font:normal normal normal 16px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Body-S{ font:normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; } .Body-XS{ font:normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; } }</style><style>:focus {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible:focus,
+.js-focus-visible .focus-visible:focus ~ .wixSdkShowFocusOnSibling
+{
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 1px 2px #3899EC;
+}
+</style></head>
+<body class="js-focus-visible">
+
+</body></html>
